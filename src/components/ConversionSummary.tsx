@@ -55,7 +55,7 @@ const ConversionSummary = ({
     case 'capped':
       conversionTitle = 'Valuation Cap Applied';
       conversionDescription = `The valuation cap of ${formatCurrency(inputs.valuationCap)} is lower than the discounted valuation.`;
-      conversionHint = 'This protects investors from excessive dilution if your company's valuation increases significantly.';
+      conversionHint = "This protects investors from excessive dilution if your company's valuation increases significantly.";
       conversionColor = 'bg-dark-green/20 border-dark-green/50';
       break;
   }
